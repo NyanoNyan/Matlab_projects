@@ -1,5 +1,5 @@
 
-function nbackVer2(id)
+function nbackGit(id)
 %% User preferences
 
 % NUMBER OF TRIALS & BLOCKS
@@ -174,8 +174,8 @@ for blocks = 1:blocknum
         time2flip=stim.VBLTimestamp+0.5-ifi; isi.VBLTimestamp=Screen('Flip',w,time2flip);
        
            %% RESPONSE OUTPUT (resp = key & rt)
-           % No Input given = "3£"
-            kbNameResult = '3£'
+           % No Input given = "3Â£"
+            kbNameResult = '3Â£'
         t_ini = GetSecs();
         while (GetSecs() - t_ini <2)
             % Stores Time taken to break the while loop
